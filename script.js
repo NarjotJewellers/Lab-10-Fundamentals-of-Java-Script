@@ -14,6 +14,12 @@ class ProductProperties {
         this.price = price;
         this.quantity = quantity;
     }
+// Commit 8: Added constructor for ProductProperties
+constructor(name, price, quantity) {
+    this.name = name;
+    this.price = price;
+    this.quantity = quantity;
+}
 
     // Returns total value of product in stock
     getTotalValue() {
