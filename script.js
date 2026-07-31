@@ -123,3 +123,9 @@ const foundProduct = myStore.findProductByName(searchName);
 console.log(foundProduct 
     ? `Found Product → ${foundProduct.toString()}` 
     : `Product "${searchName}" not found.`);
+
+// Commit 9: Added getTotalValue method
+getTotalValue() {
+    return this.price * this.quantity;
+}
+
