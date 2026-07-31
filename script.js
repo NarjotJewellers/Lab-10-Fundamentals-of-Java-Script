@@ -49,12 +49,14 @@ toString() {
 // -------------------------------------------------------------
 // Part 2: Subclass - PerishableProductProperties
 // -------------------------------------------------------------
-
+// Commit 11: Created PerishableProductProperties subclass
 class PerishableProductProperties extends ProductProperties {
     constructor(name, price, quantity, expirationDate) {
-        super(name, price, quantity); // inherit base properties
+        super(name, price, quantity);
         this.expirationDate = expirationDate;
     }
+
+    
 
     // Override toString to include expiration date
     toString() {
