@@ -2,3 +2,8 @@
 Object-Oriented Programming with Classes
 CPAN 113RNA
 This project demonstrates JavaScript classes, inheritance, static methods, and store management.
+## Features
+- Product class
+- Perishable product subclass
+- Store inventory system
+- Discount method
