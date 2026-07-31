@@ -20,6 +20,11 @@ constructor(name, price, quantity) {
     this.price = price;
     this.quantity = quantity;
 }
+    // Commit 10: Added toString method
+toString() {
+    return `Product: ${this.name}, Price: $${this.price}, Quantity: ${this.quantity}`;
+}
+
 
     // Returns total value of product in stock
     getTotalValue() {
