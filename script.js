@@ -1,3 +1,4 @@
+console.log("Commit 2: Script loaded successfully");
 // -------------------------------------------------------------
 // Part 1: Base Class - ProductProperties
 // -------------------------------------------------------------
