@@ -71,7 +71,7 @@ const yogurt = new PerishableProductProperties("Yogurt", 2.00, 15, "2024-11-15")
 // -------------------------------------------------------------
 // Part 4: Store Class
 // -------------------------------------------------------------
-
+//--- commit 12
 class Store {
     constructor() {
         this.inventory = []; // array of products
