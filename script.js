@@ -1,4 +1,8 @@
+
 console.log("Commit 2: Script loaded successfully");
+
+// Commit 5: Added ProductProperties class structure
+
 // -------------------------------------------------------------
 // Part 1: Base Class - ProductProperties
 // -------------------------------------------------------------
